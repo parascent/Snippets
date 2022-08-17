@@ -68,16 +68,18 @@ ls.add_snippets("vue", {
   ),
 
   s(
+    --method
     "m",
     fmt(
       [[
-      {}(){{
+      {}({}){{
         {}
       }},
       ]],
       {
         i(1, 'name'),
-        i(2, 'shit'),
+        i(2, 'args'),
+        i(3),
       }
     )
   ),
