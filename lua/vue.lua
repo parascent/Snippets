@@ -136,6 +136,22 @@ ls.add_snippets("vue", {
         i(1, 'Name'),
         i(2, 'false'),
         i(3),
+        i(4),
+      }
+    )
+  ),
+
+
+  s(
+    "mix",
+    fmt(
+      [[
+      mixins: {{
+        {},
+      }},
+      ]],
+      {
+        i(1, 'mixin'),
       }
     )
   ),
