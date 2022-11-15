@@ -8,7 +8,7 @@ local rep = require("luasnip.extras").rep
 local fmt = require("luasnip.extras.fmt").fmt
 
 
-snippet_collection.clear_snippets "vue"
+snippet_collection.clear_snippets "typescriptreact"
 ls.add_snippets("typescriptreact", {
 
  s(

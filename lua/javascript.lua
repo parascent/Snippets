@@ -9,7 +9,7 @@ local fmt = require("luasnip.extras.fmt").fmt
 
 
 snippet_collection.clear_snippets "javascript"
-ls.add_snippets("vue", {
+ls.add_snippets("javascript", {
   s(
     "cl",
     fmt(
@@ -40,17 +40,15 @@ ls.add_snippets("vue", {
     "f",
     fmt(
       [[
-      {} = function({}){{
+      {}({}){{
         {}
-      }}
+      }},
       ]],
       {
-        i(1, 'Name'),
-        i(2),
-        i(1, 'Body'),
+        i(1, 'name'),
+        i(2, 'args'),
+        i(3),
       }
     )
-  ),
-
-
+  )
 })
